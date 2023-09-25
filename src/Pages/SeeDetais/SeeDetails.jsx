@@ -1,12 +1,19 @@
-import { useParams } from "react-router-dom";
 
+
+import {useLoaderData, useParams} from "react-router-dom";
+import SeeAllDetailCard from "./SeeAllDetailCard";
 
 const SeeDetails = () => {
-    const params = useParams()
-    console.log(params)
+    
+    const {id}= useParams()
+    const idInt = parseInt(id)
+    const details = useLoaderData()
+    const detail = details.find(detail => detail.id === idInt)
+    console.log(detail)
+
     return (
         <div>
-            <h1></h1>
+            <SeeAllDetailCard detail={detail}></SeeAllDetailCard>
         </div>
     );
 };

@@ -29,7 +29,7 @@ const router = createBrowserRouter([
         element: <Statistics></Statistics>
       },
       {
-        path: "/seedetais/:id",
+        path: "/seedetails/:id",
         element: <SeeDetails></SeeDetails>,
         loader:()=>fetch('/alldata.json')
       }
