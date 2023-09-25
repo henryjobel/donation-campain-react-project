@@ -9,6 +9,7 @@ import Root from './Root/Root';
 import Home from './Pages/Home/Home';
 import Donation from './Pages/Donation/Donation';
 import Statistics from './Pages/Statistics/Statistics';
+import SeeDetails from './Pages/SeeDetais/SeeDetails';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,11 @@ const router = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statistics></Statistics>
+      },
+      {
+        path: "/seedetais/:id",
+        element: <SeeDetails></SeeDetails>,
+        loader:()=>fetch('/alldata.json')
       }
     ]
   },
