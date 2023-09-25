@@ -1,8 +1,36 @@
 [
   {
+    "id": 12,
+    "category": "Clothing",
+    "color": "#FFD700",
+    "bg_color":"#FAFACD",
+    "image": "https://i.ibb.co/KxnqCT7/Clothing.png",
+    "title": "Back-to-School Uniforms",
+    "donation_price": "$45",
+    "category_details_view_color": "#FFD700",
+    "short_description": "Uniform sets for students to start the school year confidently.",
+    "long_description": "Equip students with confidence for the new school year with our Back-to-School Uniforms. This set includes quality uniforms suitable for students of all ages. [Add 300-word description here.]"
+  },
+ 
+  {
+    "id": 3,
+    "category": "Food",
+    "color": "#FF4500",
+    "title": "Nutritious Food Pack",
+    "donation_price": "$40",
+    "image": "https://i.ibb.co/JBk32W5/Food.png",
+    "bg_color":"#FFDDD3",
+    "category_details_view_color": "#FF4500",
+    "short_description": "A pack of nutritious food items to support a healthy diet.",
+    "long_description": "The Nutritious Food Pack includes a variety of healthy and balanced food items such as grains, pulses, fruits, and vegetables. It's designed to provide essential nutrients for individuals and families in need. [Add 300-word description here.]"
+  },
+  
+ 
+  {
     "id": 1,
     "category": "Health",
     "color": "#3CB371",
+    "image": "https://i.ibb.co/bd8p7Rr/Health.png",
     "title": "Health Essentials Kit",
     "donation_price": "$50",
     "bg_color":"#CCFDCA",
@@ -11,81 +39,16 @@
     "long_description": "The Health Essentials Kit includes a thermometer, hand sanitizer, face masks, and vitamin supplements to help you stay healthy and protected. It's a must-have for everyone in these challenging times. [Add 300-word description here.]"
   },
   {
-    "id": 2,
-    "category": "Education",
-    "color": "#4682B4",
-    "bg_color":"#CAD2FD",
-    "title": "Educational Supplies Bundle",
-    "donation_price": "$30",
-    "category_details_view_color": "#4682B4",
-    "short_description": "A bundle of educational materials to support learning.",
-    "long_description": "Our Educational Supplies Bundle contains notebooks, pens, pencils, and educational workbooks to support students in their learning journey. This bundle is suitable for students of all ages. [Add 300-word description here.]"
-  },
-  {
-    "id": 3,
-    "category": "Food",
-    "color": "#FF4500",
-    "title": "Nutritious Food Pack",
-    "donation_price": "$40",
-    "bg_color":"#FFDDD3",
-    "category_details_view_color": "#FF4500",
-    "short_description": "A pack of nutritious food items to support a healthy diet.",
-    "long_description": "The Nutritious Food Pack includes a variety of healthy and balanced food items such as grains, pulses, fruits, and vegetables. It's designed to provide essential nutrients for individuals and families in need. [Add 300-word description here.]"
-  },
-  {
-    "id": 4,
-    "category": "Clothing",
-    "color": "#FFD700",
-    "title": "Warm Winter Clothing Set",
-    "donation_price": "$60",
-    "bg_color":"#FAFACD",
-    "category_details_view_color": "#FFD700",
-    "short_description": "A set of warm clothing items for the winter season.",
-    "long_description": "Stay warm and cozy with our Warm Winter Clothing Set. It includes a winter jacket, gloves, a scarf, and a hat. This set is perfect for individuals of all ages, especially during the cold winter months. [Add 300-word description here.]"
-  },
-  {
-    "id": 5,
-    "category": "Health",
-    "color": "#3CB371",
-    "title": "Fitness Tracker",
-    "donation_price": "$80",
-    "bg_color":"#CCFDCA",
-    "category_details_view_color": "#3CB371",
-    "short_description": "A device to monitor your health and fitness progress.",
-    "long_description": "The Fitness Tracker is a state-of-the-art device that monitors your heart rate, tracks your physical activity, and provides valuable insights into your overall health and fitness. It's an essential tool for a healthy lifestyle. [Add 300-word description here.]"
-  },
-  {
     "id": 6,
     "category": "Education",
     "color": "#4682B4",
     "title": "Online Learning Subscription",
     "donation_price": "$50",
+    "image": "https://i.ibb.co/HpCN63s/Education.png",
     "bg_color":"#CAD2FD",
     "category_details_view_color": "#4682B4",
     "short_description": "Access to a platform with a wide range of educational courses.",
     "long_description": "Gain access to a diverse range of educational courses with our Online Learning Subscription. From academic subjects to practical skills, this subscription opens up a world of learning opportunities for individuals of all ages. [Add 300-word description here.]"
-  },
-  {
-    "id": 7,
-    "category": "Food",
-    "color": "#FF4500",
-    "title": "Family Meal Package",
-    "donation_price": "$60",
-    "bg_color":"#FFDDD3",
-    "category_details_view_color": "#FF4500",
-    "short_description": "A package containing ingredients for a nutritious family meal.",
-    "long_description": "Our Family Meal Package contains a variety of fresh ingredients to help you prepare a nutritious and delicious meal for your family. It's a convenient solution for busy households. [Add 300-word description here.]"
-  },
-  {
-    "id": 8,
-    "category": "Clothing",
-    "color": "#FFD700",
-    "title": "Summer Wardrobe Collection",
-    "bg_color":"#FAFACD",
-    "donation_price": "$70",
-    "category_details_view_color": "#FFD700",
-    "short_description": "A collection of trendy summer clothing for all ages.",
-    "long_description": "Upgrade your summer wardrobe with our stylish Summer Wardrobe Collection. It includes a variety of trendy clothing items suitable for individuals of all ages and genders. [Add 300-word description here.]"
   },
   {
     "id": 9,
@@ -94,14 +57,67 @@
     "title": "Mental Health Workshop",
     "donation_price": "$40",
     "bg_color":"#CCFDCA",
+    "image": "https://i.ibb.co/bd8p7Rr/Health.png",
     "category_details_view_color": "#3CB371",
     "short_description": "A workshop focused on mental health awareness and coping strategies.",
     "long_description": "Join our Mental Health Workshop to gain valuable insights into mental health awareness and learn effective coping strategies. This workshop is suitable for individuals seeking to prioritize their mental well-being. [Add 300-word description here.]"
   },
   {
+    "id": 8,
+    "category": "Clothing",
+    "color": "#FFD700",
+    "image": "https://i.ibb.co/KxnqCT7/Clothing.png",
+    "title": "Summer Wardrobe Collection",
+    "bg_color":"#FAFACD",
+    "donation_price": "$70",
+    "category_details_view_color": "#FFD700",
+    "short_description": "A collection of trendy summer clothing for all ages.",
+    "long_description": "Upgrade your summer wardrobe with our stylish Summer Wardrobe Collection. It includes a variety of trendy clothing items suitable for individuals of all ages and genders. [Add 300-word description here.]"
+  },
+  
+  {
+    "id": 7,
+    "category": "Food",
+    "color": "#FF4500",
+    "title": "Family Meal Package",
+    "donation_price": "$60",
+    "image": "https://i.ibb.co/JBk32W5/Food.png",
+    "bg_color":"#FFDDD3",
+    "category_details_view_color": "#FF4500",
+    "short_description": "A package containing ingredients for a nutritious family meal.",
+    "long_description": "Our Family Meal Package contains a variety of fresh ingredients to help you prepare a nutritious and delicious meal for your family. It's a convenient solution for busy households. [Add 300-word description here.]"
+  },
+  {
+    "id": 2,
+    "category": "Education",
+    "color": "#4682B4",
+    "bg_color":"#CAD2FD",
+    "image": "https://i.ibb.co/HpCN63s/Education.png",
+    "title": "Educational Supplies Bundle",
+    "donation_price": "$30",
+    "category_details_view_color": "#4682B4",
+    "short_description": "A bundle of educational materials to support learning.",
+    "long_description": "Our Educational Supplies Bundle contains notebooks, pens, pencils, and educational workbooks to support students in their learning journey. This bundle is suitable for students of all ages. [Add 300-word description here.]"
+  },
+  
+  {
+    "id": 5,
+    "category": "Health",
+    "color": "#3CB371",
+    "title": "Fitness Tracker",
+    "donation_price": "$80",
+    "bg_color":"#CCFDCA",
+    "image": "https://i.ibb.co/bd8p7Rr/Health.png",
+    "category_details_view_color": "#3CB371",
+    "short_description": "A device to monitor your health and fitness progress.",
+    "long_description": "The Fitness Tracker is a state-of-the-art device that monitors your heart rate, tracks your physical activity, and provides valuable insights into your overall health and fitness. It's an essential tool for a healthy lifestyle. [Add 300-word description here.]"
+  },
+ 
+  {
     "id": 10,
     "category": "Education",
     "color": "#4682B4",
+    "image": "https://i.ibb.co/HpCN63s/Education.png",
     "bg_color":"#CAD2FD",
     "title": "Mathematics Tutoring Program",
     "donation_price": "$35",
@@ -115,20 +131,23 @@
     "color": "#FF4500",
     "bg_color":"#FFDDD3",
     "title": "Fresh Produce Box",
+    "image": "https://i.ibb.co/JBk32W5/Food.png",
     "donation_price": "$25",
     "category_details_view_color": "#FF4500",
     "short_description": "A box filled with fresh and locally sourced fruits and vegetables.",
     "long_description": "Enjoy the goodness of fresh and locally sourced fruits and vegetables with our Fresh Produce Box. It's a convenient way to incorporate nutritious options into your diet. [Add 300-word description here.]"
   },
+  
   {
-    "id": 12,
+    "id": 4,
     "category": "Clothing",
     "color": "#FFD700",
+    "title": "Warm Winter Clothing Set",
+    "donation_price": "$60",
+    "image": "https://i.ibb.co/KxnqCT7/Clothing.png",
     "bg_color":"#FAFACD",
-    "title": "Back-to-School Uniforms",
-    "donation_price": "$45",
     "category_details_view_color": "#FFD700",
-    "short_description": "Uniform sets for students to start the school year confidently.",
-    "long_description": "Equip students with confidence for the new school year with our Back-to-School Uniforms. This set includes quality uniforms suitable for students of all ages. [Add 300-word description here.]"
+    "short_description": "A set of warm clothing items for the winter season.",
+    "long_description": "Stay warm and cozy with our Warm Winter Clothing Set. It includes a winter jacket, gloves, a scarf, and a hat. This set is perfect for individuals of all ages, especially during the cold winter months. [Add 300-word description here.]"
   }
 ]

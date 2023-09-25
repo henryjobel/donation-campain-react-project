@@ -1,12 +1,17 @@
 
 const Donationcard = ({ donationcard }) => {
-    const { category, category_details_view_color,title,donation_price,bg_color } = donationcard;
+    const { category, category_details_view_color, title, bg_color, image } = donationcard;
     return (
-        <div  style={{ background: bg_color }}>
-            <h1 style={{ color: category_details_view_color }}>{title}</h1>
-            <h3 style={{ color: category_details_view_color }} >{donation_price}</h3>
-            <button className="btn btn-outline" style={{ color: category_details_view_color }}>{category}</button>
+        <div style={{background:bg_color}} className="card  bg-base-100 shadow-xl w-[312px] mb-12">
+        <figure><img src={image} alt="Shoes" /></figure>
+        <div className="card-body">
+            <button style={{color:category_details_view_color}} className="btn btn-outline">{category}</button>
+          <h2 style={{color:category_details_view_color}} className="card-title">
+            {title}
+          </h2>
+          
         </div>
+      </div>
     );
 };
 
