@@ -12,7 +12,7 @@ const SeeDetails = () => {
     console.log(detail)
 
     return (
-        <div>
+        <div className="max-w-7xl mx-auto ">
             <SeeAllDetailCard detail={detail}></SeeAllDetailCard>
         </div>
     );
