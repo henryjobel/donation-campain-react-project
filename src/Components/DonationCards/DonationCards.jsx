@@ -11,7 +11,7 @@ const DonationCards = () => {
     },[])
 
     return (
-        <div className="grid grid-cols-4 pb-20 gap-10">
+        <div className="lg:grid lg:grid-cols-4 md:grid md:grid-cols-2 pb-20 gap-10">
             {
                 donationCards.map(donationcard => <Donationcard key={donationCards.id} donationcard={donationcard}></Donationcard>)
             }

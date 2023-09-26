@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="hero-overlay bg-white bg-opacity-60"></div>
       <div className="hero-content">
         <div className='pb-28'>
-          <h1 className='text-8xl text-slate-700 font-semibold'>I Grow By Helping <br /> People In Need</h1>
+          <h1 className='lg:text-8xl text-5xl text-slate-700 font-semibold'>I Grow By Helping <br /> People In Need</h1>
           <div className="relative flex h-10 w-full min-w-[300px] max-w-7xl  mt-10">
             <input
               type="Search"

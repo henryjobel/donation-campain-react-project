@@ -38,7 +38,7 @@ const NavBar = () => {
           </div>
           <img src="https://i.ibb.co/Yct8QJP/Logo.png" alt="" />
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
               <NavLink to="/">Home</NavLink>
@@ -51,9 +51,7 @@ const NavBar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <a className="btn">Button</a>
-        </div>
+        
       </div>
     </div>
   );

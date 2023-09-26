@@ -30,14 +30,17 @@ const Donation = () => {
 
     return (
         <div>
-            <div className='grid grid-cols-2 max-w-7xl mx-auto gap-10'>
+            <div className='grid lg:grid-cols-2 max-w-7xl mx-auto gap-10'>
                 {displayDonations.slice(0, showAll ? displayDonations.length : 4).map((donation) => (
                     <div key={donation.id} className="donation-card">
                         <div style={{background: donation.bg_color}} className="card card-side bg-base-100 shadow-xl">
-                        <figure><img src={donation.image} alt="Movie" /></figure>
+                        <figure><img src={donation.card_img} alt="Movie" /></figure>
                         <div className="card-body">
-                            <h2 style={{color: donation.color}} className="card-title">{donation.title}</h2>
-                            <p style={{color: donation.color}}>{donation.short_description}</p>
+                            <div className="p-1 rounded-xl w-24 text-center" style={{background:donation.text_bcl,color:donation.category_details_view_color}}>
+                                <p>{donation.category}</p>
+                            </div>
+                            <h2 className="card-title">{donation.title}</h2>
+                            <p style={{color: donation.color}}>{donation.donation_price}</p>
                             <div className="card-actions justify-start">
                                 <button style={{background:donation.color}} className="btn text-white">View Details</button>
                             </div>
